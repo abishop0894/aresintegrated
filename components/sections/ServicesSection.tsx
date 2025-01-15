@@ -4,24 +4,24 @@ import Link from 'next/link';
 
 const services = [
   {
-    title: "Metal Manufacturing",
-    description: "Our metal manufacturing SC's cover a wide range of metal products, from aluminum to steel, meeting the stringent quality standards required for government projects. We ensure precise and compliant solutions to fulfill government contract specifications.",
-    link: "/portfolio/k9"
+    title: "K9 Procurement, Training, and Equipping",
+    description: "Our K9 Training SC's provide a comprehensive range of K9 training services, including obedience, tracking, and search and rescue. We ensure that our K9 training services meet the specific requirements of each government contract, providing durable and reliable solutions for various applications.",
+    link: "/services/k9"
   },
   {
-    title: "Fencing Solutions",
-    description: "Our fencing solutions SC's provide a comprehensive range of fencing products, including barbed wire, chain link, and other security solutions. We ensure that our fencing solutions meet the specific requirements of each government contract, providing durable and reliable solutions for various applications.",
-    link: "/portfolio/general-construction"
+    title: "General Construction",
+    description: "Our general construction SC's provide a comprehensive range of construction services, including fencing, security solutions, and other construction solutions. We ensure that our general construction services meet the specific requirements of each government contract, providing durable and reliable solutions for various applications.",
+    link: "/services/general-construction"
   },
   {
     title: "Small Arms & Ammunition",
     description: "Our small arms and ammunition SC's offer a wide range of firearms and ammunition, meeting the stringent quality standards required for government projects. We ensure precise and compliant solutions to fulfill government contract specifications.",
-    link: "/portfolio/small-arms-and-ammunition"
+    link: "/services/small-arms-and-ammunition"
   },
   {
-    title: "Compliance",
-    description: "Regulatory Adherence- We assist government agencies in adhering to regulatory requirements and standards, ensuring compliance and conformity with government procurement policies and regulations.",
-    link: "/portfolio/fabricated-metal"
+    title: "Fabricated Metal",
+    description: "Our fabricated metal SC's provide a comprehensive range of fabricated metal products, including metal fabrication, welding, and other metal fabrication solutions. We ensure that our fabricated metal products meet the specific requirements of each government contract, providing durable and reliable solutions for various applications.",
+    link: "/services/fabricated-metal"
   }
 ];
 
