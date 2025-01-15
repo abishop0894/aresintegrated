@@ -9,17 +9,17 @@ const pageData = {
   description: portfolioItems[0].description,
   items: [
     {
-      image: '/k9/training1.jpg',
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/male-dog-trainer-outdoors-with-dog-session.jpg',
       title: 'Handler Training',
       description: 'Comprehensive K9 handler certification program'
     },
     {
-      image: '/k9/facility1.jpg',
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/Personal-Protection-Dog-K9-Security-Dog-K9-Training-03.jpg',
       title: 'Training Facility',
       description: 'State-of-the-art K9 training grounds'
     },
     {
-      image: '/k9/exercise1.jpg',
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/dogTraining1.jpg',
       title: 'Field Exercises',
       description: 'Real-world scenario training'
     },

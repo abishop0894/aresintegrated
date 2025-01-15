@@ -9,19 +9,19 @@ const pageData = {
   description: portfolioItems[2].description,
   items: [
     {
-      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/Handgun-Calibers1.jpg',
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/istockphoto-1247574554-612x612.jpg',
       title: '.22 Caliber',
       description: 'Ammunition for .22 caliber handguns'
     },
     {
-      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/istockphoto-1247574554-612x612.jpg',
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/380acp-1.jpg',
       title: '.380 Caliber',
       description: 'Ammunition for 9mm caliber handguns'
     },
     {
-      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/istockphoto-1247574554-612x612.jpg',
-      title: '.380 Caliber',
-      description: 'Ammunition for  caliber handguns'
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/bullets.jpg',
+      title: '9mm, .40, .45 Caliber and more',
+      description: 'Ammunition for all small arms'
     },
     // Add more items as needed
   ]

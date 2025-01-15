@@ -16,7 +16,7 @@ const pageData = {
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/State-specific-welder-working-on-metal-fabrication.jpg',
       title: 'Training Facility',
-      description: 'State-of-the-art K9 training grounds'
+      description: 'State-of-the-art K9 training'
     },
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/Blain-Stumpf-Temporary-Fence-Rentals-Service-Page-Image-Construction-Fencing.webp',
