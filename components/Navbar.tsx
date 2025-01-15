@@ -20,7 +20,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`fixed w-full h-fit py-2 z-50 backdrop-blur-sm overflow-hidden transition-colors duration-5000 ${
+    <nav className={`fixed w-full h-fit py-2 z-[50] backdrop-blur-sm overflow-hidden transition-colors duration-5000 ${
       hasScrolled ? 'bg-white/80' : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-8 sm:px-20">

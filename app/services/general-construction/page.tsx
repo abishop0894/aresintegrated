@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import MasonryGrid from '@/components/MasonryGrid';
-import SmallHeader from '@/components/SmallHeader';
+
 import BackButton from '@/components/BackButton';
 import { portfolioItems } from '@/app/lib/constants';
 const pageData = {
@@ -30,8 +30,8 @@ const pageData = {
 export default function GeneralConstructionPortfolio() {
   return (
     <>
-     <SmallHeader />
-    <div className="min-h-screen py-20 px-8 sm:px-20 bg-black text-white">
+    
+    <div className="min-h-screen py-20 px-8 pt-[15vh] sm:px-20 bg-black text-white">
      
       <div className="max-w-7xl mx-auto">
         <div className="mb-8">
