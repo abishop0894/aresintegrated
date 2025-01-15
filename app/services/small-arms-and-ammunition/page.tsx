@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import MasonryGrid from '@/components/MasonryGrid';
 import SmallHeader from '@/components/SmallHeader';
 import BackButton from '@/components/BackButton';
-import { portfolioItems } from '../page';
+import { portfolioItems } from '@/app/lib/constants';
 const pageData = {
   title: 'Small Arms and Ammunition',
   description: portfolioItems[2].description,
