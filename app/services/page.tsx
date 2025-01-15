@@ -3,7 +3,7 @@
   import Link from 'next/link';
   import HeroSection from '@/components/HeroSection';
   import Image from 'next/image';
-  export default function Portfolio() {
+  export  function Portfolio() {
     return (
       <motion.div
         initial={{ opacity: 0 }}
