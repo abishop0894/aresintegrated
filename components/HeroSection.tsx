@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-
+import Image from 'next/image';
 const images = [
   'https://aresintegrated.s3.us-east-1.amazonaws.com/low-angle-shot-high-residential-buildings-cloudy-sky.jpg',
   'https://aresintegrated.s3.us-east-1.amazonaws.com/low-angle-shot-texas-capitol-building-blue-beautiful-sky-austin-city-texas.jpg',
@@ -42,13 +42,13 @@ export default function HeroSection({
           transition={{ duration: 1 }}
           className="absolute inset-0"
         >
-          <div 
+          <Image 
+            src={image}
+            alt="Hero Image"
+            fill
             className="absolute inset-0 z-10"
-            style={{
-              backgroundImage: `url(${image})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-            }}
+            loading="eager"
+            
           />
         </motion.div>
       ))}

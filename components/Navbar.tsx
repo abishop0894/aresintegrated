@@ -63,11 +63,11 @@ export default function Navbar() {
                   Home
                 </Link>
                 <Link 
-                  href="/portfolio" 
+                  href="/services" 
                   className="block hover:opacity-70 font-bold transition-opacity"
                   onClick={() => setIsOpen(false)}
                 >
-                  Portfolio
+                  Services
                 </Link>
               </div>
             </motion.div>

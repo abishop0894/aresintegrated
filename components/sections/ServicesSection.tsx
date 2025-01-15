@@ -45,11 +45,11 @@ export default function ServicesSection() {
               transition={{ delay: index * 0.1 }}
               className="group relative p-6 bg-background border-l-2 border-white  shadow-sm hover:shadow-md transition-shadow"
             >
-              <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">{service.description}</p>
+              <h3 className="text-xl text-white font-semibold mb-3">{service.title}</h3>
+              <p className="text-white mb-4">{service.description}</p>
               <Link 
                 href={service.link}
-                className="text-sm font-medium text-foreground hover:opacity-70 transition-opacity inline-flex items-center"
+                className="text-sm font-medium text-white hover:opacity-70 transition-opacity inline-flex items-center"
               >
                 Learn More
                 <svg 
