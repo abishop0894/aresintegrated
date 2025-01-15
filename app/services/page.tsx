@@ -12,13 +12,13 @@
         className="min-h-screen bg-black text-white"
       >
         <HeroSection
-          title="Our Portfolio"
-          subtitle="Explore our diverse range of projects and achievements"
+          title="Our Services"
+          subtitle="Explore our diverse range of offerings"
           fullScreen={false}
         />
 
         <div className="lg:max-w-7xl w-full lg:mx-auto bg-black text-white">
-          <div className="grid grid-cols-1 py-[2vh] px-[2vw]   md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 py-[6vh] px-[6vw]   md:grid-cols-2 lg:grid-cols-3 gap-8">
             {portfolioItems.map((item, index) => (
               <motion.div
                 key={item.slug}
@@ -28,7 +28,7 @@
                 className="relative"
               >
                 <Link href={`/services/${item.slug}`}>
-                  <div className="relative w-full h-[300px] overflow-hidden group">
+                  <div className="relative w-full h-[300px] rounded-lg overflow-hidden group">
                     <Image 
                       src={item.image} 
                       alt={item.title} 
@@ -48,29 +48,52 @@
     );
   }
 
-  const portfolioItems = [
+  export const portfolioItems = [
     {
-      title: "K9 Training Program",
-      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/washington-dc-city-aerial-view.jpg",
+      title: "K9 Training and Procurement",
+      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/Cropped2-035-ENU0051-Aggression-Control_c.jpg",
       slug: "k9",
-      description: "Professional K9 training services"
+      description: "Our K9 training services provide a diverse array of solutions, such as obedience, tracking, and search and rescue, specifically designed to fulfill the requirements of government contracts."
     },
     {
-      title: "Construction Projects",
-      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/washington-dc-city-aerial-view.jpg",
+      title: "General Construction (FL Only)",
+      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/Construction6.jpg",
       slug: "general-construction",
-      description: "Major construction achievements"
+      description: "Our general construction services offer a wide range of durable solutions, including fencing and security, tailored to meet the specific requirements of government contracts."
     },
     {
-      title: "Small Arms Solutions",
-      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/washington-dc-city-aerial-view.jpg",
+      title: "Small Arms Ammunition",
+      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/fives.jpg",
       slug: "small-arms-and-ammunition",
-      description: "Specialized arms and ammunition projects"
+      description: "Our small arms ammunition services provide a comprehensive selection of ammunition that meet stringent quality standards and comply with all specifications."
     },
     {
-      title: "Metal Fabrication",
-      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/washington-dc-city-aerial-view.jpg",
+      title: "Metal Fabrication and Fencing",
+      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/ST612LWEC-4.jpg",
       slug: "fabricated-metal",
-      description: "Custom metal fabrication work"
+      description: "Our fabricated metal services offer a wide range of durable and reliable products, including metal fabrication and welding, tailored to meet the specific requirements of government contracts."
     }
   ];
+
+  /*
+    {
+    title: "K9 Procurement, Training, and Equipping",
+    description: "Our K9 Training SC's provide a comprehensive range of K9 training services, including obedience, tracking, and search and rescue. We ensure that our K9 training services meet the specific requirements of each government contract, providing durable and reliable solutions for various applications.",
+    link: "/services/k9"
+  },
+  {
+    title: "General Construction",
+    description: "Our general construction SC's provide a comprehensive range of construction services, including fencing, security solutions, and other construction solutions. We ensure that our general construction services meet the specific requirements of each government contract, providing durable and reliable solutions for various applications.",
+    link: "/services/general-construction"
+  },
+  {
+    title: "Small Arms & Ammunition",
+    description: "Our small arms and ammunition SC's offer a wide range of firearms and ammunition, meeting the stringent quality standards required for government projects. We ensure precise and compliant solutions to fulfill government contract specifications.",
+    link: "/services/small-arms-and-ammunition"
+  },
+  {
+    title: "Fabricated Metal",
+    description: "Our fabricated metal SC's provide a comprehensive range of fabricated metal products, including metal fabrication, welding, and other metal fabrication solutions. We ensure that our fabricated metal products meet the specific requirements of each government contract, providing durable and reliable solutions for various applications.",
+    link: "/services/fabricated-metal"
+  }
+  */

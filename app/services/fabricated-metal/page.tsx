@@ -3,22 +3,23 @@ import { motion } from 'framer-motion';
 import MasonryGrid from '@/components/MasonryGrid';
 import SmallHeader from '@/components/SmallHeader';
 import BackButton from '@/components/BackButton';
+import { portfolioItems } from '../page';
 const pageData = {
   title: 'Fabricated Metal',
-  description: 'Professional K9 training and handling services for military and law enforcement.',
+  description: portfolioItems[3].description,
   items: [
     {
-      image: '/k9/training1.jpg',
-      title: 'Handler Training',
-      description: 'Comprehensive K9 handler certification program'
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/CFD-Custom-Metal-Fabricator-scaled.jpg',
+      title: 'Metals',
+      description: 'Custom metal fabrication and welding services'
     },
     {
-      image: '/k9/facility1.jpg',
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/State-specific-welder-working-on-metal-fabrication.jpg',
       title: 'Training Facility',
       description: 'State-of-the-art K9 training grounds'
     },
     {
-      image: '/k9/exercise1.jpg',
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/Blain-Stumpf-Temporary-Fence-Rentals-Service-Page-Image-Construction-Fencing.webp',
       title: 'Field Exercises',
       description: 'Real-world scenario training'
     },

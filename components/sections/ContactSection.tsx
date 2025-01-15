@@ -24,10 +24,10 @@ export default function ContactSection() {
             </p>
             <div className="space-y-4">
               <p className="text-white">
-                Email: contact@aresintegrated.com
+                Email: jmacielair@aresintegratedresources.com
               </p>
               <p className="text-white">
-                Phone: (555) 123-4567
+                Phone: (808) 219-6282
               </p>
             </div>
           </motion.div>
@@ -59,9 +59,24 @@ export default function ContactSection() {
             </div>
             <button
               type="submit"
-              className="w-full px-8 py-3 bg-foreground text-background rounded-md hover:opacity-90 transition-opacity"
+              className="w-full flex justify-start py-3 bg-foreground items-center space-x-2 text-background rounded-md hover:opacity-90 transition-opacity"
             >
-              Send Message
+             <span>Send Message </span>
+             <svg 
+                className="w-5 h-5" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M9 5l7 7-7 7" 
+                />
+              </svg>
+             
+             
             </button>
           </motion.form>
         </div>

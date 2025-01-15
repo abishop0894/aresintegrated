@@ -3,24 +3,25 @@ import { motion } from 'framer-motion';
 import MasonryGrid from '@/components/MasonryGrid';
 import SmallHeader from '@/components/SmallHeader';
 import BackButton from '@/components/BackButton';
+import { portfolioItems } from '../page';
 const pageData = {
   title: 'Small Arms and Ammunition',
-  description: 'Professional K9 training and handling services for military and law enforcement.',
+  description: portfolioItems[2].description,
   items: [
     {
-      image: '/k9/training1.jpg',
-      title: 'Handler Training',
-      description: 'Comprehensive K9 handler certification program'
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/Handgun-Calibers1.jpg',
+      title: '.22 Caliber',
+      description: 'Ammunition for .22 caliber handguns'
     },
     {
-      image: '/k9/facility1.jpg',
-      title: 'Training Facility',
-      description: 'State-of-the-art K9 training grounds'
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/istockphoto-1247574554-612x612.jpg',
+      title: '.380 Caliber',
+      description: 'Ammunition for 9mm caliber handguns'
     },
     {
-      image: '/k9/exercise1.jpg',
-      title: 'Field Exercises',
-      description: 'Real-world scenario training'
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/istockphoto-1247574554-612x612.jpg',
+      title: '.380 Caliber',
+      description: 'Ammunition for  caliber handguns'
     },
     // Add more items as needed
   ]

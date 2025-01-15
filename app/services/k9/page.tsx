@@ -3,9 +3,10 @@ import { motion } from 'framer-motion';
 import MasonryGrid from '@/components/MasonryGrid';
 import SmallHeader from '@/components/SmallHeader';
 import BackButton from '@/components/BackButton';
+import { portfolioItems } from '../page';
 const pageData = {
   title: 'K9 Training Program',
-  description: 'Professional K9 training and handling services for military and law enforcement.',
+  description: portfolioItems[0].description,
   items: [
     {
       image: '/k9/training1.jpg',

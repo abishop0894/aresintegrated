@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 import MasonryGrid from '@/components/MasonryGrid';
 import SmallHeader from '@/components/SmallHeader';
 import BackButton from '@/components/BackButton';
-
+import { portfolioItems } from '../page';
 const pageData = {
   title: 'General Construction',
-  description: 'Professional K9 training and handling services for military and law enforcement.',
+  description: portfolioItems[1].description,
   items: [
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/closeup-contractor-construction-site-pointing-plan-wooden-sleeper.jpg',
