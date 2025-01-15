@@ -18,15 +18,15 @@ export default function ContactSection() {
             animate={{ y: 0, opacity: 1 }}
             className="space-y-6"
           >
-            <h3 className="text-xl font-semibold">Get in Touch</h3>
-            <p className="text-gray-600 dark:text-gray-300">
+            <h3 className="text-xl text-white font-semibold">Get in Touch</h3>
+            <p className="text-white">
               Interested in working with us? Contact our team to discuss your requirements.
             </p>
             <div className="space-y-4">
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-white">
                 Email: contact@aresintegrated.com
               </p>
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-white">
                 Phone: (555) 123-4567
               </p>
             </div>
