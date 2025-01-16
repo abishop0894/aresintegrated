@@ -10,18 +10,18 @@ const pageData = {
   items: [
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/closeup-contractor-construction-site-pointing-plan-wooden-sleeper.jpg',
-      title: 'Handler Training',
-      description: 'Comprehensive K9 handler certification program'
+      title: 'General Construction Services',
+      description: 'Florida Based General Construction Services'
     },
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/construction-plans-with-yellow-helmet-drawing-tools-bluep.jpg',
-      title: 'Training Facility',
-      description: 'State-of-the-art K9 training grounds'
+      title: 'Interior and Exterior Construction',
+      description: 'Florida Based Interior and Exterior Construction Services'
     },
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/construction-silhouette.jpg',
-      title: 'Field Exercises',
-      description: 'Real-world scenario training'
+      title: 'General Construction Supplies',
+      description: 'Florida Based General Construction Supplies'
     },
     // Add more items as needed
   ]

@@ -5,23 +5,24 @@ import MasonryGrid from '@/components/MasonryGrid';
 import BackButton from '@/components/BackButton';
 import { portfolioItems } from '@/app/lib/constants';
 const pageData = {
-  title: 'Small Arms and Ammunition',
+  title: 'Small Arms Ammunition',
   description: portfolioItems[2].description,
   items: [
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/istockphoto-1247574554-612x612.jpg',
-      title: '.22 Caliber',
-      description: 'Ammunition for .22 caliber handguns'
+      title: 'Small Arms Ammunition',
+      description: 'Specialization in small arms ammunition ranging from .22 - .338 lapua'
     },
+
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/380acp-1.jpg',
-      title: '.380 Caliber',
-      description: 'Ammunition for 9mm caliber handguns'
+      title: 'Small Arms Procurement',
+      description: 'Small arms procurement for law enforcement and military'
     },
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/bullets.jpg',
-      title: '9mm, .40, .45 Caliber and more',
-      description: 'Ammunition for all small arms'
+      title: 'Small Arms Accessories',
+      description: 'Small arms accessories including holsters, magazines, and more'
     },
     // Add more items as needed
   ]

@@ -9,18 +9,18 @@ const pageData = {
   items: [
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/male-dog-trainer-outdoors-with-dog-session.jpg',
-      title: 'Handler Training',
-      description: 'Comprehensive K9 handler certification program'
+      title: 'K9 Procurement',
+      description: 'K9 procurement and training'
     },
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/Personal-Protection-Dog-K9-Security-Dog-K9-Training-03.jpg',
-      title: 'Training Facility',
-      description: 'State-of-the-art K9 training grounds'
+      title: 'K9 Training',
+      description: 'K9 training and certification'
     },
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/dogTraining1.jpg',
-      title: 'Field Exercises',
-      description: 'Real-world scenario training'
+      title: 'K9 Equipement',
+      description: 'K9 equipment and supplies'
     },
     // Add more items as needed
   ]

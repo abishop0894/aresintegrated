@@ -9,18 +9,18 @@ const pageData = {
   items: [
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/CFD-Custom-Metal-Fabricator-scaled.jpg',
-      title: 'Metals',
+      title: 'Custom Aluminum, Steel or Iron Projects',
       description: 'Custom metal fabrication and welding services'
     },
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/State-specific-welder-working-on-metal-fabrication.jpg',
-      title: 'Training Facility',
-      description: 'State-of-the-art K9 training'
+      title: 'Defensive and General Fencing Material Supply',
+      description: 'Expert fencing material supply for defensive and general purposes'
     },
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/Blain-Stumpf-Temporary-Fence-Rentals-Service-Page-Image-Construction-Fencing.webp',
-      title: 'Field Exercises',
-      description: 'Real-world scenario training'
+      title: 'General Aluminum and Steel Supplies',
+      description: 'General aluminum and steel supplies for a variety of applications'
     },
     // Add more items as needed
   ]
