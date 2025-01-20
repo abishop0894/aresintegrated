@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
+  
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -31,7 +31,9 @@ export default function RootLayout({
       >
         <Navbar />
         <main className="">
-          {children}
+        <div className="flex flex-col justify-center items-center overflow-x-hidden">
+         <center> <h1>SITE OFFLINE: Contact Administrator.</h1></center>
+        </div>
         </main>
         <Footer />
       </body>
