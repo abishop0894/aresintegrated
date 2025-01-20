@@ -53,8 +53,8 @@ export default function FeaturesSection() {
               transition={{ delay: index * 0.1 }}
               className="p-6 bg-background rounded-lg border-2  border-white shadow-sm"
             >
-              <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
-              <p className="text-gray-600 dark:text-gray-300">{feature.description}</p>
+              <h3 className="text-xl text-white font-semibold mb-3">{feature.title}</h3>
+              <p className="text-white">{feature.description}</p>
             </motion.div>
           ))}
         </div>

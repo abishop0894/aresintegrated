@@ -3,6 +3,7 @@
   import Link from 'next/link';
   import HeroSection from '@/components/HeroSection';
   import Image from 'next/image';
+  import { portfolioItems } from '@/app/lib/constants';
   export default function Portfolio() {
     return (
       <motion.div
@@ -12,13 +13,13 @@
         className="min-h-screen bg-black text-white"
       >
         <HeroSection
-          title="Our Portfolio"
-          subtitle="Explore our diverse range of projects and achievements"
+          title="Our Services"
+          subtitle="Explore our diverse range of offerings"
           fullScreen={false}
         />
 
         <div className="lg:max-w-7xl w-full lg:mx-auto bg-black text-white">
-          <div className="grid grid-cols-1 py-[2vh] px-[2vw]   md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 py-[6vh] px-[6vw]   md:grid-cols-2 lg:grid-cols-3 gap-8">
             {portfolioItems.map((item, index) => (
               <motion.div
                 key={item.slug}
@@ -28,7 +29,7 @@
                 className="relative"
               >
                 <Link href={`/services/${item.slug}`}>
-                  <div className="relative w-full h-[300px] overflow-hidden group">
+                  <div className="relative w-full h-[300px] rounded-lg overflow-hidden group">
                     <Image 
                       src={item.image} 
                       alt={item.title} 
@@ -48,29 +49,26 @@
     );
   }
 
-  const portfolioItems = [
+ 
+  /*
     {
-      title: "K9 Training Program",
-      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/washington-dc-city-aerial-view.jpg",
-      slug: "k9",
-      description: "Professional K9 training services"
-    },
-    {
-      title: "Construction Projects",
-      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/washington-dc-city-aerial-view.jpg",
-      slug: "general-construction",
-      description: "Major construction achievements"
-    },
-    {
-      title: "Small Arms Solutions",
-      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/washington-dc-city-aerial-view.jpg",
-      slug: "small-arms-and-ammunition",
-      description: "Specialized arms and ammunition projects"
-    },
-    {
-      title: "Metal Fabrication",
-      image: "https://aresintegrated.s3.us-east-1.amazonaws.com/washington-dc-city-aerial-view.jpg",
-      slug: "fabricated-metal",
-      description: "Custom metal fabrication work"
-    }
-  ];
+    title: "K9 Procurement, Training, and Equipping",
+    description: "Our K9 Training SC's provide a comprehensive range of K9 training services, including obedience, tracking, and search and rescue. We ensure that our K9 training services meet the specific requirements of each government contract, providing durable and reliable solutions for various applications.",
+    link: "/services/k9"
+  },
+  {
+    title: "General Construction",
+    description: "Our general construction SC's provide a comprehensive range of construction services, including fencing, security solutions, and other construction solutions. We ensure that our general construction services meet the specific requirements of each government contract, providing durable and reliable solutions for various applications.",
+    link: "/services/general-construction"
+  },
+  {
+    title: "Small Arms & Ammunition",
+    description: "Our small arms and ammunition SC's offer a wide range of firearms and ammunition, meeting the stringent quality standards required for government projects. We ensure precise and compliant solutions to fulfill government contract specifications.",
+    link: "/services/small-arms-and-ammunition"
+  },
+  {
+    title: "Fabricated Metal",
+    description: "Our fabricated metal SC's provide a comprehensive range of fabricated metal products, including metal fabrication, welding, and other metal fabrication solutions. We ensure that our fabricated metal products meet the specific requirements of each government contract, providing durable and reliable solutions for various applications.",
+    link: "/services/fabricated-metal"
+  }
+  */

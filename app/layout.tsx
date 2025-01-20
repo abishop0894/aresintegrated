@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
+  
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -30,8 +30,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        <main className="pt-16">
-          {children}
+        <main className="">
+        <div className="flex flex-col justify-center items-center overflow-x-hidden">
+         <center> <h1>SITE OFFLINE: Contact Administrator.</h1></center>
+        </div>
         </main>
         <Footer />
       </body>

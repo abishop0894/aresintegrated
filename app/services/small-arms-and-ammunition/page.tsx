@@ -1,26 +1,28 @@
 'use client';
 import { motion } from 'framer-motion';
 import MasonryGrid from '@/components/MasonryGrid';
-import SmallHeader from '@/components/SmallHeader';
+
 import BackButton from '@/components/BackButton';
+import { portfolioItems } from '@/app/lib/constants';
 const pageData = {
-  title: 'Small Arms and Ammunition',
-  description: 'Professional K9 training and handling services for military and law enforcement.',
+  title: 'Small Arms Ammunition',
+  description: portfolioItems[2].description,
   items: [
     {
-      image: '/k9/training1.jpg',
-      title: 'Handler Training',
-      description: 'Comprehensive K9 handler certification program'
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/istockphoto-1247574554-612x612.jpg',
+      title: 'Small Arms Ammunition',
+      description: 'Specialization in small arms ammunition ranging from .22 - .338 lapua'
+    },
+
+    {
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/380acp-1.jpg',
+      title: 'Small Arms Procurement',
+      description: 'Small arms procurement for law enforcement and military'
     },
     {
-      image: '/k9/facility1.jpg',
-      title: 'Training Facility',
-      description: 'State-of-the-art K9 training grounds'
-    },
-    {
-      image: '/k9/exercise1.jpg',
-      title: 'Field Exercises',
-      description: 'Real-world scenario training'
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/bullets.jpg',
+      title: 'Small Arms Accessories',
+      description: 'Small arms accessories including holsters, magazines, and more'
     },
     // Add more items as needed
   ]
@@ -29,8 +31,8 @@ const pageData = {
 export default function SmallArmsAndAmmunitionPortfolio() {
   return (
     <>
-    <SmallHeader />
-    <div className="min-h-screen py-20 px-8 sm:px-20 bg-black text-white">
+ 
+    <div className="min-h-screen py-20 px-8 pt-[15vh] sm:px-20 bg-black text-white">
       <div className="max-w-7xl mx-auto">
          <div className="mb-8">
           <BackButton />

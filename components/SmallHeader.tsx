@@ -9,7 +9,7 @@ const images = [
 
 export default function SmallHeader() {
   return (
-    <section className="relative h-[35vh] -mt-[10vh] w-full overflow-hidden">
+    <section className="absolute top-0 h-[35vh] -mt-[10vh] w-full overflow-hidden">
       <div 
         className="absolute inset-0 z-10"
         style={{

@@ -33,7 +33,7 @@ export default function HeroSection({
   }, []);
 
   return (
-    <section className="relative h-screen -mt-[10vh] w-full overflow-hidden">
+    <section className="relative top-0 left-0 h-screen w-full overflow-hidden">
       {images.map((image, index) => (
         <motion.div
           key={image}

@@ -1,27 +1,27 @@
 'use client';
 import { motion } from 'framer-motion';
 import MasonryGrid from '@/components/MasonryGrid';
-import SmallHeader from '@/components/SmallHeader';
-import BackButton from '@/components/BackButton';
 
+import BackButton from '@/components/BackButton';
+import { portfolioItems } from '@/app/lib/constants';
 const pageData = {
   title: 'General Construction',
-  description: 'Professional K9 training and handling services for military and law enforcement.',
+  description: portfolioItems[1].description,
   items: [
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/closeup-contractor-construction-site-pointing-plan-wooden-sleeper.jpg',
-      title: 'Handler Training',
-      description: 'Comprehensive K9 handler certification program'
+      title: 'General Construction Services',
+      description: 'Florida Based General Construction Services'
     },
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/construction-plans-with-yellow-helmet-drawing-tools-bluep.jpg',
-      title: 'Training Facility',
-      description: 'State-of-the-art K9 training grounds'
+      title: 'Interior and Exterior Construction',
+      description: 'Florida Based Interior and Exterior Construction Services'
     },
     {
       image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/construction-silhouette.jpg',
-      title: 'Field Exercises',
-      description: 'Real-world scenario training'
+      title: 'General Construction Supplies',
+      description: 'Florida Based General Construction Supplies'
     },
     // Add more items as needed
   ]
@@ -30,8 +30,8 @@ const pageData = {
 export default function GeneralConstructionPortfolio() {
   return (
     <>
-     <SmallHeader />
-    <div className="min-h-screen py-20 px-8 sm:px-20 bg-black text-white">
+    
+    <div className="min-h-screen py-20 px-8 pt-[15vh] sm:px-20 bg-black text-white">
      
       <div className="max-w-7xl mx-auto">
         <div className="mb-8">

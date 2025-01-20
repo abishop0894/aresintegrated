@@ -27,7 +27,8 @@ export default function MasonryGrid({ items }: Props) {
             src={item.image}
             alt={item.title}
             fill
-            className="object-cover rounded-lg"
+            loading="eager"
+            className="object-cover object-center rounded-lg"
           />
           <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex flex-col justify-end p-6">
             <h3 className="text-xl font-semibold text-white mb-2">{item.title}</h3>

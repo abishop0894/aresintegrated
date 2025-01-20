@@ -16,22 +16,22 @@
                 <h4 className="font-semibold mb-4">Quick Links</h4>
                 <ul className="space-y-2">
                 <li>
-                    <a href="/portfolio/k9" className="text-white hover:opacity-70 transition-opacity">
+                    <a href="/services/k9" className="text-white hover:opacity-70 transition-opacity">
                     K9 Training
                     </a>
                 </li>
                 <li>
-                    <a href="/portfolio/general-construction" className="text-white hover:opacity-70 transition-opacity">
+                    <a href="/services/general-construction" className="text-white hover:opacity-70 transition-opacity">
                     Construction
                     </a>
                 </li>
                 <li>
-                    <a href="/portfolio/small-arms-and-ammunition" className="text-white hover:opacity-70 transition-opacity">
+                    <a href="/services/small-arms-and-ammunition" className="text-white hover:opacity-70 transition-opacity">
                     Small Arms
                     </a>
                 </li>
                 <li>
-                    <a href="/portfolio/fabricated-metal" className="text-white hover:opacity-70 transition-opacity">
+                    <a href="/services/fabricated-metal" className="text-white hover:opacity-70 transition-opacity">
                     Metal Fabrication
                     </a>
                 </li>

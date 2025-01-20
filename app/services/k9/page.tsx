@@ -1,26 +1,26 @@
 'use client';
 import { motion } from 'framer-motion';
 import MasonryGrid from '@/components/MasonryGrid';
-import SmallHeader from '@/components/SmallHeader';
 import BackButton from '@/components/BackButton';
+import { portfolioItems } from '@/app/lib/constants';
 const pageData = {
   title: 'K9 Training Program',
-  description: 'Professional K9 training and handling services for military and law enforcement.',
+  description: portfolioItems[0].description,
   items: [
     {
-      image: '/k9/training1.jpg',
-      title: 'Handler Training',
-      description: 'Comprehensive K9 handler certification program'
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/male-dog-trainer-outdoors-with-dog-session.jpg',
+      title: 'K9 Procurement',
+      description: 'K9 procurement and training'
     },
     {
-      image: '/k9/facility1.jpg',
-      title: 'Training Facility',
-      description: 'State-of-the-art K9 training grounds'
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/Personal-Protection-Dog-K9-Security-Dog-K9-Training-03.jpg',
+      title: 'K9 Training',
+      description: 'K9 training and certification'
     },
     {
-      image: '/k9/exercise1.jpg',
-      title: 'Field Exercises',
-      description: 'Real-world scenario training'
+      image: 'https://aresintegrated.s3.us-east-1.amazonaws.com/dogTraining1.jpg',
+      title: 'K9 Equipement',
+      description: 'K9 equipment and supplies'
     },
     // Add more items as needed
   ]
@@ -29,8 +29,8 @@ const pageData = {
 export default function K9Portfolio() {
   return (
     <>
-    <SmallHeader /> 
-    <div className="min-h-screen py-20 px-8 sm:px-20 bg-black text-white">
+ 
+    <div className="min-h-screen py-20 px-8 pt-[15vh] sm:px-20 bg-black text-white">
       <div className="max-w-7xl mx-auto">
          <div className="mb-8">
           <BackButton />

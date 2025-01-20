@@ -3,10 +3,13 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 
+
+
 export default function AboutSection() {
   return (
-    <section className="py-20 px-8 bg-black text-white sm:px-20">
-      <div className="max-w-7xl mx-auto">
+    <section className="relative py-20 px-8 bg-black text-white sm:px-20">
+    
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -29,13 +32,12 @@ export default function AboutSection() {
             <h2 className="text-3xl font-bold text-white">About Us</h2>
             <div className="prose dark:prose-invert">
               <p className="text-lg text-white">
-               
-Ares Integrated Resources is a dedicated government contracting procurement company committed to providing exceptional metal manufacturing, fencing solutions, and small arms/ammo supply to government agencies. With a team of skilled professionals, we aim to deliver reliable and compliant solutions that meet the specific requirements of each government contract.
+                Ares Integrated Resources is a dedicated government contracting procurement company committed to providing exceptional metal manufacturing, fencing solutions, small arms/ammo supply, and K9 procurement, training, and equipping to government agencies. With a team of skilled professionals, we aim to deliver reliable and compliant solutions that meet the specific requirements of each government contract.
               </p>
             </div>
             <Link 
               href="/services"
-              className="inline-block  p-4 bg-white  text-black rounded-md hover:opacity-90 transition-opacity"
+              className="inline-block p-4 bg-white text-black rounded-md hover:opacity-90 transition-opacity"
             >
               Services
             </Link>
