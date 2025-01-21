@@ -72,7 +72,15 @@ export default function Navbar() {
                 >
                   Services
                 </Link>
+                <Link 
+                  href="/contact" 
+                  className={`block hover:opacity-70 font-bold transition-opacity ${hasScrolled ? 'text-black' : 'text-white'}`}
+                  onClick={() => setIsOpen(false)}
+                >
+                Contact
+                </Link>
               </div>
+              
             </motion.div>
           )}
         </AnimatePresence>
