@@ -14,8 +14,8 @@ const services = [
     link: "/services/general-construction"
   },
   {
-    title: "Small Arms & Ammunition",
-    description: "Our small arms and ammunition SC's offer a wide range of firearms and ammunition, meeting the stringent quality standards required for government projects. We ensure precise and compliant solutions to fulfill government contract specifications.",
+    title: "Small Arms Ammunition",
+    description: "Our small arms ammunition SC's offer a wide range of small arms ammunition, meeting the stringent quality standards required for government projects. We ensure precise and compliant solutions to fulfill government contract specifications.",
     link: "/services/small-arms-and-ammunition"
   },
   {
