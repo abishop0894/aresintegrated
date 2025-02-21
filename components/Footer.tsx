@@ -38,8 +38,8 @@
                 </ul>
             </div>
             <div>
-                <h4 className="font-semibold mb-4">Contact</h4>
                 
+                {/* Contact */}
             </div>
             </div>
             <div className="mt-12 pt-8 border-t border-white text-center text-white">
