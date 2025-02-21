@@ -58,14 +58,7 @@ export default function ContactSection() {
             <p className="text-white">
               Interested in working with us? Contact our team to discuss your requirements.
             </p>
-            <div className="space-y-4">
-              <p className="text-white">
-                Email: jmacielair@aresintegratedresources.com
-              </p>
-              <p className="text-white">
-                Phone: (808) 219-6282
-              </p>
-            </div>
+            
           </motion.div>
 
           {!isSuccess ? (

@@ -39,10 +39,7 @@
             </div>
             <div>
                 <h4 className="font-semibold mb-4">Contact</h4>
-                <address className="text-white not-italic">
-                <p>Email: jmacielair@aresintegratedresources.com</p>
-                <p>Phone: (808) 219-6282</p>
-                </address>
+                
             </div>
             </div>
             <div className="mt-12 pt-8 border-t border-white text-center text-white">
